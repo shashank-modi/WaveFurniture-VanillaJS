@@ -103,3 +103,8 @@ function updateCartTotal(){
     }
     document.getElementsByClassName('total-cart-price')[0].innerText=total
 }
+
+function sendMessage() {
+    var name = document.getElementById("name").value;
+    alert("Hey " + name + ", your message has been sent. Thank you.");
+}

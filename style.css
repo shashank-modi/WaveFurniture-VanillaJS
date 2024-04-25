@@ -17,7 +17,7 @@ nav{
   position: fixed;
   width: 100%;
   padding: 18px 0px;
-  z-index: 998;
+  z-index: 1000;
   transition: all 0.3s ease;
   font-family: 'San Francisco', sans-serif;
   background-color: #161515fa;
@@ -531,4 +531,174 @@ footer .text span a:hover{
     background-color: #000000;
     color: #fff;
     transform: scale(1.1);
+}
+
+
+
+
+/* Support Page */
+
+
+
+
+.support {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.support .content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.support .title {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* FAQ Section */
+.faq {
+  background-color: #f7f7f7;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.faq-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333; /* Darker color for questions */
+}
+
+.answer {
+  font-size: 18px;
+  display: none;
+  color: #555; /* Slightly darker color for answers */
+}
+
+.faq-item[open] .answer {
+  display: block;
+}
+
+/* Review Section */
+.review {
+  margin: 60px auto 40px auto;
+  padding: 50px 0;
+}
+
+.review-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.review-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.review-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.review-item {
+  width:320px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.review-item .name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.review-item .rating {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.review-item .comment {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/*Support Contact Section */
+.support .contact {
+  margin-top: 50px;
+}
+
+.support .contact-header {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.support .contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.support .contact-form input,
+.support .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.support .contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #161515;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.support .contact-form button:hover {
+  background-color: #000;
 }
