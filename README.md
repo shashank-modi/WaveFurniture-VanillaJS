@@ -3,7 +3,7 @@
 A simple and responsive e-commerce furniture storefront built using **HTML, CSS, and JavaScript**.  
 This version is static (no backend) but includes product listing, cart functionality, and a lightweight checkout preview.
 
-**Live Demo:** [Click here](https://shashank-modi.github.io/Web-Programming-Mini-Project/)
+**Live Demo:** [Click here](https://shashank-modi.github.io/WaveFurniture-VanillaJS/)
 
 
 ## Features
